@@ -11,7 +11,7 @@ const app = express();
 // Configure CORS to allow requests from localhost:5173
 app.use(
   cors({
-    origin: 'http://localhost:5173',  // Allow requests from this domain (your frontend)
+    origin: 'https://neurapix-frontend-3.onrender.com',  // Allow requests from this domain (your frontend)
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type'],
   })
